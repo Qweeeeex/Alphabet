@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<!-- creator-webassembly.qdoc -->
+  <title>Building Applications for the Web | Qt Creator Manual</title>
+  <link rel="stylesheet" type="text/css" href="style/offline-simple.css" />
+  <script type="text/javascript">
+    document.getElementsByTagName("link").item(0).setAttribute("href", "style/offline.css");
+    // loading style sheet breaks anchors that were jumped to before
+    // so force jumping to anchor again
+    setTimeout(function() {
+        var anchor = location.hash;
+        // need to jump to different anchor first (e.g. none)
+        location.hash = "#";
+        setTimeout(function() {
+            location.hash = anchor;
+        }, 0);
+    }, 0);
+  </script>
+</head>
+<body>
+<div class="header" id="qtdocheader">
+  <div class="main">
+    <div class="main-rounded">
+      <div class="navigationbar">
+        <table><tr>
+<td ><a href="index.html">Qt Creator Manual</a></td><td >Building Applications for the Web</td></tr></table><table class="buildversion"><tr>
+<td id="buildversion" width="100%" align="right"><a href="index.html">Qt Creator Manual 4.11.1</a></td>
+        </tr></table>
+      </div>
+    </div>
+<div class="content">
+<div class="line">
+<div class="content mainContent">
+  <link rel="prev" href="creator-developing-qnx.html" />
+  <link rel="next" href="creator-build-process-customizing.html" />
+<p class="naviNextPrevious headerNavi">
+<a class="prevPage" href="creator-developing-qnx.html">Connecting QNX Devices</a>
+<span class="naviSeparator">  &#9702;  </span>
+<a class="nextPage" href="creator-build-process-customizing.html">Customizing the Build Process</a>
+</p><p/>
+<div class="sidebar">
+<div class="toc">
+<h3><a name="toc">Contents</a></h3>
+<ul>
+<li class="level1"><a href="#requirements">Requirements</a></li>
+<li class="level1"><a href="#setting-up-the-development-environment">Setting Up the Development Environment</a></li>
+</ul>
+</div>
+<div class="sidebar-content" id="sidebar-content"></div></div>
+<h1 class="title">Building Applications for the Web</h1>
+<span class="subtitle"></span>
+<!-- $$$creator-setup-webassembly.html-description -->
+<div class="descr"> <a name="details"></a>
+<p>WebAssembly is a binary format that allows sand-boxed executable code in web pages. This format is nearly as fast as native machine code, and is now supported by all major web browsers.</p>
+<p><a href="http://doc.qt.io/qt-5/supported-platforms.html#qt-for-webassembly">Qt for WebAssembly</a> enables building Qt applications so that they can be integrated into web pages. It doesn't require any client-side installations and reduces the use of server-side resources.</p>
+<p>The experimental WebAssembly plugin enables you to build your applications in WebAssembly format and deploy and run them in the local web browser. You can change the web browser in the project run settings.</p>
+<p>To build applications for the web and run them in a web browser, you need to install Qt for WebAssembly and the tool chain for compiling to WebAssembly, as well as add a build and run kit in Qt Creator.</p>
+<a name="requirements"></a>
+<h2 id="requirements">Requirements</h2>
+<p>You need the following software to build Qt applications for the web and run them in a browser:</p>
+<ul>
+<li>Qt for WebAssembly 5.13.1, or later</li>
+<li>On Windows: <a href="http://mingw.org/">MinGW</a> 7.3&#x2e;0, or later</li>
+<li><a href="https://emscripten.org/docs/introducing_emscripten/index.html">emscripten</a> tool chain for compiling to WebAssembly</li>
+<li><code>sed</code> stream editor</li>
+</ul>
+<p><b>Note: </b>You need to add the location of the MinGW and <code>sed</code> installation folders to the system path, either globally or for the Qt for WebAssembly kit.</p><a name="setting-up-the-development-environment"></a>
+<h2 id="setting-up-the-development-environment">Setting Up the Development Environment</h2>
+<p>To configure Qt Creator for building Qt apps for the web and running them in a web browser:</p>
+<ol class="1" type="1"><li>Use the Qt maintenance tool to install Qt for WebAssembly and, on Windows, MinGW (found in <b>Developer and Designer Tools</b>).</li>
+<li>Check out <code>emsdk</code> and install and activate <code>emscripten</code>, as instructed in <a href="http://doc.qt.io/qt-5/supported-platforms.html#qt-for-webassembly">Qt for WebAssembly</a>.</li>
+<li>On Windows, you have to download and install <code>sed</code>, as instructed in <a href="http://gnuwin32.sourceforge.net/packages/sed.htm">sed for Windows</a>, and add its location to the system PATH.</li>
+<li>In Qt Creator, select <b>Help</b> &gt; <b>About Plugins</b> &gt; <b>Device Support</b> &gt; <b>WebAssembly</b> to enable the plugin.</li>
+<li>Restart Qt Creator to be able to use the plugin.</li>
+<li>Select <b>Tools</b> &gt; <b>Options</b> &gt; <b>Kits</b> &gt; <b>Qt Versions</b> &gt; <b>Add</b> to add Qt for WebAssembly (wasm_32).</li>
+<li>Select <b>Tools</b> &gt; <b>Options</b> &gt; <b>Kits</b> &gt; <b>Add</b> to add a kit for building applications for the web:<p class="centerAlign"><img src="images/qtcreator-kit-webassembly.png" alt="&quot;Qt for WebAssembly kit&quot;" /></p><ol class="1" type="1"><li>In the <b>Name</b> field, specify a name for the kit.</li>
+<li>In the <b>Device type</b> field, select <b>WebAssembly Runtime</b>. The value of the <b>Device</b> field is automatically set to <b>Web Browser</b>.</li>
+<li>In the <b>Compiler</b> field, select <b>Emscripten Compiler</b> for both C and C++.</li>
+<li>Select <b>Change</b> next to the <b>Environment</b> field to append the locations where you installed MinGW and <code>sed</code> to the PATH variable. For example, on Windows: <code>PATH=C:\Qt\Tools\mingw730_64\bin;C:\Program Files (x86)\GnuWin32\bin;${PATH}</code></li>
+<li>Select <b>Apply</b> to add the kit.</li>
+</ol>
+</li>
+<li>Open a project for an application you want to run in a web browser.</li>
+<li>Select <b>Projects</b> &gt; <b>Build &amp; Run</b>, and then select the WebAssembly kit as the build and run kit for the project.</li>
+<li>Select <b>Run</b> to specify run settings.</li>
+<li>In the <b>Browser</b> field, select the browser to run the application in.<p class="centerAlign"><img src="images/qtcreator-settings-run-webassembly.png" alt="&quot;Selecting the browser to run in&quot;" /></p></li>
+</ol>
+<p>You can now build Qt applications in WebAssembly format and run them in a web browser as described in <a href="creator-building-targets.html">Building for Multiple Platforms</a> and <a href="creator-running-targets.html">Running on Multiple Platforms</a>.</p>
+</div>
+<!-- @@@creator-setup-webassembly.html -->
+<p class="naviNextPrevious footerNavi">
+<a class="prevPage" href="creator-developing-qnx.html">Connecting QNX Devices</a>
+<span class="naviSeparator">  &#9702;  </span>
+<a class="nextPage" href="creator-build-process-customizing.html">Customizing the Build Process</a>
+</p>
+        </div>
+       </div>
+   </div>
+   </div>
+</div>
+<div class="footer">
+   <p>
+   <acronym title="Copyright">&copy;</acronym> 2019 The Qt Company Ltd.
+   Documentation contributions included herein are the copyrights of
+   their respective owners.<br>    The documentation provided herein is licensed under the terms of the    <a href="http://www.gnu.org/licenses/fdl.html">GNU Free Documentation    License version 1.3</a> as published by the Free Software Foundation.<br>    Qt and respective logos are trademarks of The Qt Company Ltd.     in Finland and/or other countries worldwide. All other trademarks are property
+   of their respective owners. </p>
+</div>
+</body>
+</html>

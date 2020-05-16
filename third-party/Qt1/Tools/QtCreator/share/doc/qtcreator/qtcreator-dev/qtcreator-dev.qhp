@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QtHelpProject version="1.0">
+    <namespace>org.qt-project.qtcreator.developer.4111</namespace>
+    <virtualFolder>doc</virtualFolder>
+    <metaData name="version" value=""/>
+    <customFilter name="Qt Creator 4.11.1">
+        <filterAttribute>4.11.1</filterAttribute>
+        <filterAttribute>qtcreator</filterAttribute>
+    </customFilter>
+    <filterSection>
+        <filterAttribute>4.11.1</filterAttribute>
+        <filterAttribute>qtcreator</filterAttribute>
+        <toc>
+            <section ref="extending-index.html" title="Extending Qt Creator Manual">
+                <section ref="" title="">
+                    <section ref="abstractsymbolgroupnode.html" title="AbstractSymbolGroupNode Class Reference"/>
+                    <section ref="aggregation.html" title="Aggregation"/>
+                    <section ref="basesymbolgroupnode.html" title="BaseSymbolGroupNode Class Reference">
+                        <section ref="basesymbolgroupnode-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="cplusplus.html" title="CPlusPlus"/>
+                    <section ref="codeassist.html" title="Code Assist for Editors"/>
+                    <section ref="common-extension-tasks.html" title="Common Extension Tasks"/>
+                    <section ref="core.html" title="Core"/>
+                    <section ref="core-fileiconprovider-sub-qt-creator.html" title="FileIconProvider"/>
+                    <section ref="core-navigationview.html" title="Core::NavigationView Class Reference"/>
+                    <section ref="creating-plugins.html" title="Creating Plugins"/>
+                    <section ref="qtcreator-dev-wizards.html" title="Creating Wizards in Code"/>
+                    <section ref="first-plugin.html" title="Creating Your First Plugin"/>
+                    <section ref="debugfiltersymbolgroupnodevisitor.html" title="DebugFilterSymbolGroupNodeVisitor Class Reference">
+                        <section ref="debugfiltersymbolgroupnodevisitor-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="debugsymbolgroupnodevisitor.html" title="DebugSymbolGroupNodeVisitor Class Reference">
+                        <section ref="debugsymbolgroupnodevisitor-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="debugger.html" title="Debugger"/>
+                    <section ref="dumpparameters.html" title="DumpParameters Class Reference"/>
+                    <section ref="dumpsymbolgroupnodevisitor.html" title="DumpSymbolGroupNodeVisitor Class Reference">
+                        <section ref="dumpsymbolgroupnodevisitor-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="eventcallback.html" title="EventCallback Class Reference">
+                        <section ref="eventcallback-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="extending-index.html" title="Extending Qt Creator Manual"/>
+                    <section ref="extensioncommandcontext.html" title="ExtensionCommandContext Class Reference"/>
+                    <section ref="extensioncontext.html" title="ExtensionContext Class Reference"/>
+                    <section ref="extensionsystem.html" title="ExtensionSystem"/>
+                    <section ref="external-tool-spec.html" title="External Tool Specification Files"/>
+                    <section ref="getting-and-building.html" title="Getting and Building Qt Creator"/>
+                    <section ref="localssymbolgroup.html" title="LocalsSymbolGroup Class Reference">
+                        <section ref="localssymbolgroup-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="mapnodesymbolgroupnode.html" title="MapNodeSymbolGroupNode Class Reference">
+                        <section ref="mapnodesymbolgroupnode-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="parameters.html" title="Parameters Class Reference"/>
+                    <section ref="plugin-lifecycle.html" title="Plugin Life Cycle"/>
+                    <section ref="plugin-meta-data.html" title="Plugin Meta Data"/>
+                    <section ref="projectexplorer.html" title="ProjectExplorer"/>
+                    <section ref="projectexplorer-projectconfigurationmodel.html" title="ProjectExplorer::ProjectConfigurationModel Class Reference"/>
+                    <section ref="qmlerror.html" title="QmlError Class Reference">
+                        <section ref="qmlerror-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qmljs.html" title="QmlJS"/>
+                    <section ref="qtcreator-api.html" title="Qt Creator API Reference"/>
+                    <section ref="qtcreatorcdbext.html" title="Qt Creator CDB Extensions"/>
+                    <section ref="classes.html" title="Qt Creator Classes"/>
+                    <section ref="coding-style.html" title="Qt Creator Coding Rules"/>
+                    <section ref="functions.html" title="Qt Creator Functions"/>
+                    <section ref="mainclasses.html" title="Qt Creator Main Classes"/>
+                    <section ref="namespaces.html" title="Qt Creator Namespaces"/>
+                    <section ref="qtinfo.html" title="QtInfo Class Reference"/>
+                    <section ref="referencesymbolgroupnode.html" title="ReferenceSymbolGroupNode Class Reference">
+                        <section ref="referencesymbolgroupnode-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="snippets.html" title="Snippets for Editors"/>
+                    <section ref="symbolgroup.html" title="SymbolGroup Class Reference"/>
+                    <section ref="symbolgroupnode.html" title="SymbolGroupNode Class Reference">
+                        <section ref="symbolgroupnode-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="symbolgroupnodevisitor.html" title="SymbolGroupNodeVisitor Class Reference"/>
+                    <section ref="symbolgroupvalue.html" title="SymbolGroupValue Class Reference"/>
+                    <section ref="symbolgroupvaluecontext.html" title="SymbolGroupValueContext Class Reference"/>
+                    <section ref="texteditor.html" title="TextEditor"/>
+                    <section ref="pluginmanager.html" title="The Plugin Manager, the Object Pool, and Registered Objects"/>
+                    <section ref="qtcreator-ui-text.html" title="User Interface Text Guidelines"/>
+                    <section ref="utils.html" title="Utils"/>
+                    <section ref="vcsbase.html" title="VcsBase"/>
+                    <section ref="watchessymbolgroup.html" title="WatchesSymbolGroup Class Reference">
+                        <section ref="watchessymbolgroup-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qtcreator-documentation.html" title="Writing Documentation"/>
+                </section>
+            </section>
+        </toc>
+        <keywords>
+            <keyword name="AbstractSymbolGroupNode" id="AbstractSymbolGroupNode" ref="abstractsymbolgroupnode.html"/>
+            <keyword name="Aggregation" id="Aggregation" ref="aggregation.html"/>
+            <keyword name="BaseSymbolGroupNode" id="BaseSymbolGroupNode" ref="basesymbolgroupnode.html"/>
+            <keyword name="CPlusPlus" id="CPlusPlus" ref="cplusplus.html"/>
+            <keyword name="Code Assist for Editors" id="Code Assist for Editors" ref="codeassist.html"/>
+            <keyword name="Common Extension Tasks" id="Common Extension Tasks" ref="common-extension-tasks.html"/>
+            <keyword name="Core" id="Core" ref="core.html"/>
+            <keyword name="Creating Plugins" id="Creating Plugins" ref="creating-plugins.html"/>
+            <keyword name="Creating Wizards in Code" id="Creating Wizards in Code" ref="qtcreator-dev-wizards.html"/>
+            <keyword name="Creating Your First Plugin" id="Creating Your First Plugin" ref="first-plugin.html"/>
+            <keyword name="DebugFilterSymbolGroupNodeVisitor" id="DebugFilterSymbolGroupNodeVisitor" ref="debugfiltersymbolgroupnodevisitor.html"/>
+            <keyword name="DebugSymbolGroupNodeVisitor" id="DebugSymbolGroupNodeVisitor" ref="debugsymbolgroupnodevisitor.html"/>
+            <keyword name="Debugger" id="Debugger" ref="debugger.html"/>
+            <keyword name="DumpParameters" id="DumpParameters" ref="dumpparameters.html"/>
+            <keyword name="DumpSymbolGroupNodeVisitor" id="DumpSymbolGroupNodeVisitor" ref="dumpsymbolgroupnodevisitor.html"/>
+            <keyword name="EventCallback" id="EventCallback" ref="eventcallback.html"/>
+            <keyword name="Extending Qt Creator Manual" id="Extending Qt Creator Manual" ref="extending-index.html"/>
+            <keyword name="ExtensionCommandContext" id="ExtensionCommandContext" ref="extensioncommandcontext.html"/>
+            <keyword name="ExtensionContext" id="ExtensionContext" ref="extensioncontext.html"/>
+            <keyword name="ExtensionSystem" id="ExtensionSystem" ref="extensionsystem.html"/>
+            <keyword name="External Tool Specification Files" id="External Tool Specification Files" ref="external-tool-spec.html"/>
+            <keyword name="FileIconProvider" id="Core::FileIconProvider" ref="core-fileiconprovider-sub-qt-creator.html"/>
+            <keyword name="Getting and Building Qt Creator" id="Getting and Building Qt Creator" ref="getting-and-building.html"/>
+            <keyword name="LocalsSymbolGroup" id="LocalsSymbolGroup" ref="localssymbolgroup.html"/>
+            <keyword name="MapNodeSymbolGroupNode" id="MapNodeSymbolGroupNode" ref="mapnodesymbolgroupnode.html"/>
+            <keyword name="NavigationView" id="Core::NavigationView" ref="core-navigationview.html"/>
+            <keyword name="Parameters" id="Parameters" ref="parameters.html"/>
+            <keyword name="Plugin Life Cycle" id="Plugin Life Cycle" ref="plugin-lifecycle.html"/>
+            <keyword name="Plugin Meta Data" id="Plugin Meta Data" ref="plugin-meta-data.html"/>
+            <keyword name="ProjectConfigurationModel" id="ProjectExplorer::ProjectConfigurationModel" ref="projectexplorer-projectconfigurationmodel.html"/>
+            <keyword name="ProjectExplorer" id="ProjectExplorer" ref="projectexplorer.html"/>
+            <keyword name="QmlError" id="QmlError" ref="qmlerror.html"/>
+            <keyword name="QmlJS" id="QmlJS" ref="qmljs.html"/>
+            <keyword name="Qt Creator API Reference" id="Qt Creator API Reference" ref="qtcreator-api.html"/>
+            <keyword name="Qt Creator CDB Extensions" id="Qt Creator CDB Extensions" ref="qtcreatorcdbext.html"/>
+            <keyword name="Qt Creator Classes" id="Qt Creator Classes" ref="classes.html"/>
+            <keyword name="Qt Creator Coding Rules" id="Qt Creator Coding Rules" ref="coding-style.html"/>
+            <keyword name="Qt Creator Functions" id="Qt Creator Functions" ref="functions.html"/>
+            <keyword name="Qt Creator Main Classes" id="Qt Creator Main Classes" ref="mainclasses.html"/>
+            <keyword name="Qt Creator Namespaces" id="Qt Creator Namespaces" ref="namespaces.html"/>
+            <keyword name="QtInfo" id="QtInfo" ref="qtinfo.html"/>
+            <keyword name="ReferenceSymbolGroupNode" id="ReferenceSymbolGroupNode" ref="referencesymbolgroupnode.html"/>
+            <keyword name="Snippets for Editors" id="Snippets for Editors" ref="snippets.html"/>
+            <keyword name="SymbolGroup" id="SymbolGroup" ref="symbolgroup.html"/>
+            <keyword name="SymbolGroupNode" id="SymbolGroupNode" ref="symbolgroupnode.html"/>
+            <keyword name="SymbolGroupNodeVisitor" id="SymbolGroupNodeVisitor" ref="symbolgroupnodevisitor.html"/>
+            <keyword name="SymbolGroupValue" id="SymbolGroupValue" ref="symbolgroupvalue.html"/>
+            <keyword name="SymbolGroupValueContext" id="SymbolGroupValueContext" ref="symbolgroupvaluecontext.html"/>
+            <keyword name="TextEditor" id="TextEditor" ref="texteditor.html"/>
+            <keyword name="The Plugin Manager, the Object Pool, and Registered Objects" id="The Plugin Manager, the Object Pool, and Registered Objects" ref="pluginmanager.html"/>
+            <keyword name="User Interface Text Guidelines" id="User Interface Text Guidelines" ref="qtcreator-ui-text.html"/>
+            <keyword name="Utils" id="Utils" ref="utils.html"/>
+            <keyword name="Utils::Large" id="Utils::Large" ref="utils.html#ProgressIndicatorSize-enum"/>
+            <keyword name="Utils::Medium" id="Utils::Medium" ref="utils.html#ProgressIndicatorSize-enum"/>
+            <keyword name="Utils::ProgressIndicatorSize" id="Utils::ProgressIndicatorSize" ref="utils.html#ProgressIndicatorSize-enum"/>
+            <keyword name="Utils::Small" id="Utils::Small" ref="utils.html#ProgressIndicatorSize-enum"/>
+            <keyword name="VcsBase" id="VcsBase" ref="vcsbase.html"/>
+            <keyword name="VcsBase::AnnotateOutput" id="VcsBase::AnnotateOutput" ref="vcsbase.html#EditorContentType-enum"/>
+            <keyword name="VcsBase::DiffOutput" id="VcsBase::DiffOutput" ref="vcsbase.html#EditorContentType-enum"/>
+            <keyword name="VcsBase::EditorContentType" id="VcsBase::EditorContentType" ref="vcsbase.html#EditorContentType-enum"/>
+            <keyword name="VcsBase::LogOutput" id="VcsBase::LogOutput" ref="vcsbase.html#EditorContentType-enum"/>
+            <keyword name="VcsBase::OtherContent" id="VcsBase::OtherContent" ref="vcsbase.html#EditorContentType-enum"/>
+            <keyword name="WatchesSymbolGroup" id="WatchesSymbolGroup" ref="watchessymbolgroup.html"/>
+            <keyword name="Writing Documentation" id="Writing Documentation" ref="qtcreator-documentation.html"/>
+            <keyword name="column" id="QmlError::column" ref="qmlerror.html#column"/>
+            <keyword name="containerChildren" id="containerChildren" ref=""/>
+            <keyword name="containerSize" id="containerSize" ref=""/>
+            <keyword name="description" id="QmlError::description" ref="qmlerror.html#description"/>
+            <keyword name="isValid" id="QmlError::isValid" ref="qmlerror.html#isValid"/>
+            <keyword name="line" id="QmlError::line" ref="qmlerror.html#line"/>
+            <keyword name="messageType" id="QmlError::messageType" ref="qmlerror.html#messageType"/>
+            <keyword name="object" id="QmlError::object" ref="qmlerror.html#object"/>
+            <keyword name="operator&lt;&lt;" id="operator&lt;&lt;" ref="qmlerror.html#operator-lt-lt"/>
+            <keyword name="operator=" id="QmlError::operator=" ref="qmlerror.html#operator-eq"/>
+            <keyword name="registerIconOverlayForMimeType" id="FileIconProvider::registerIconOverlayForMimeType" ref="core-fileiconprovider-sub-qt-creator.html#registerIconOverlayForMimeType"/>
+            <keyword name="registerIconOverlayForSuffix" id="FileIconProvider::registerIconOverlayForSuffix" ref="core-fileiconprovider-sub-qt-creator.html#registerIconOverlayForSuffix"/>
+            <keyword name="setColumn" id="QmlError::setColumn" ref="qmlerror.html#setColumn"/>
+            <keyword name="setDescription" id="QmlError::setDescription" ref="qmlerror.html#setDescription"/>
+            <keyword name="setLine" id="QmlError::setLine" ref="qmlerror.html#setLine"/>
+            <keyword name="setMessageType" id="QmlError::setMessageType" ref="qmlerror.html#setMessageType"/>
+            <keyword name="setObject" id="QmlError::setObject" ref="qmlerror.html#setObject"/>
+            <keyword name="toString" id="QmlError::toString" ref="qmlerror.html#toString"/>
+            <keyword name="url" id="QmlError::url" ref="qmlerror.html#url"/>
+        </keywords>
+        <files>
+            <file>abstractsymbolgroupnode.html</file>
+            <file>aggregation.html</file>
+            <file>basesymbolgroupnode.html</file>
+            <file>classes.html</file>
+            <file>codeassist.html</file>
+            <file>coding-style.html</file>
+            <file>common-extension-tasks.html</file>
+            <file>core-fileiconprovider-sub-qt-creator.html</file>
+            <file>core-navigationview.html</file>
+            <file>core.html</file>
+            <file>cplusplus.html</file>
+            <file>creating-plugins.html</file>
+            <file>debugfiltersymbolgroupnodevisitor.html</file>
+            <file>debugger.html</file>
+            <file>debugsymbolgroupnodevisitor.html</file>
+            <file>dumpparameters.html</file>
+            <file>dumpsymbolgroupnodevisitor.html</file>
+            <file>eventcallback.html</file>
+            <file>extending-index.html</file>
+            <file>extensioncommandcontext.html</file>
+            <file>extensioncontext.html</file>
+            <file>extensionsystem.html</file>
+            <file>external-tool-spec.html</file>
+            <file>first-plugin.html</file>
+            <file>functions.html</file>
+            <file>getting-and-building.html</file>
+            <file>images/arrow_bc.png</file>
+            <file>images/bgrContent.png</file>
+            <file>images/btn_next.png</file>
+            <file>images/btn_prev.png</file>
+            <file>images/bullet_dn.png</file>
+            <file>images/bullet_sq.png</file>
+            <file>images/firstplugin-kitselection.png</file>
+            <file>images/firstplugin-menuitem.png</file>
+            <file>images/firstplugin-nameandpath.png</file>
+            <file>images/firstplugin-pluginsetup.png</file>
+            <file>images/firstplugin-runsettings.png</file>
+            <file>images/firstplugin-summary.png</file>
+            <file>images/firstplugin-wizard.png</file>
+            <file>images/home.png</file>
+            <file>images/ico_note.png</file>
+            <file>images/ico_note_attention.png</file>
+            <file>images/ico_out.png</file>
+            <file>images/logo.png</file>
+            <file>images/qtcreator-context-menu.png</file>
+            <file>images/qtcreator-debugger-views.png</file>
+            <file>images/qtcreator-dialog.png</file>
+            <file>images/qtcreator-error-message.png</file>
+            <file>images/qtcreator-locator.png</file>
+            <file>images/qtcreator-menu-item.png</file>
+            <file>images/qtcreator-menu.png</file>
+            <file>images/qtcreator-mode-selector.png</file>
+            <file>images/qtcreator-output-pane.png</file>
+            <file>images/qtcreator-sidebar-menu.png</file>
+            <file>images/qtcreator-tooltip-long.png</file>
+            <file>images/qtcreator-tooltip.png</file>
+            <file>images/riot.png</file>
+            <file>localssymbolgroup.html</file>
+            <file>mainclasses.html</file>
+            <file>mapnodesymbolgroupnode.html</file>
+            <file>namespaces.html</file>
+            <file>parameters.html</file>
+            <file>plugin-lifecycle.html</file>
+            <file>plugin-meta-data.html</file>
+            <file>pluginmanager.html</file>
+            <file>projectexplorer-projectconfigurationmodel.html</file>
+            <file>projectexplorer.html</file>
+            <file>qmlerror-members.html</file>
+            <file>qmlerror.html</file>
+            <file>qmljs.html</file>
+            <file>qtcreator-api.html</file>
+            <file>qtcreator-dev-wizards.html</file>
+            <file>qtcreator-documentation.html</file>
+            <file>qtcreator-ui-text.html</file>
+            <file>qtcreatorcdbext.html</file>
+            <file>qtinfo.html</file>
+            <file>referencesymbolgroupnode.html</file>
+            <file>snippets.html</file>
+            <file>style/offline-simple.css</file>
+            <file>style/offline.css</file>
+            <file>symbolgroup.html</file>
+            <file>symbolgroupnode.html</file>
+            <file>symbolgroupnodevisitor.html</file>
+            <file>symbolgroupvalue.html</file>
+            <file>symbolgroupvaluecontext.html</file>
+            <file>texteditor.html</file>
+            <file>utils.html</file>
+            <file>vcsbase.html</file>
+            <file>watchessymbolgroup.html</file>
+        </files>
+    </filterSection>
+</QtHelpProject>

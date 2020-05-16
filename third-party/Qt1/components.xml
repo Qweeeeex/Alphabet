@@ -1,0 +1,203 @@
+<Packages>
+    <ApplicationName>Qt</ApplicationName>
+    <ApplicationVersion>1.0.0</ApplicationVersion>
+    <Package>
+        <Name>qt</Name>
+        <Title>Qt</Title>
+        <Description>Qt</Description>
+        <Version>1.0.9</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-05</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.license.thirdparty,qt.license.lgpl</Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.installer.changelog</Name>
+        <Title>Qt Installer Changelog</Title>
+        <Description></Description>
+        <Version>1.0.2</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-05</InstallDate>
+        <Size>1702</Size>
+        <AutoDependOn>qt</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.license.lgpl</Name>
+        <Title>Qt License LGPL</Title>
+        <Description></Description>
+        <Version>1.0.2</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-05</InstallDate>
+        <Size>0</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.license.python</Name>
+        <Title>Python Software Foundation License Version 2</Title>
+        <Description></Description>
+        <Version>2</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-05</InstallDate>
+        <Size>0</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.license.thirdparty</Name>
+        <Title>Qt 3rd Party Licenses</Title>
+        <Description></Description>
+        <Version>1.0.0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-05</InstallDate>
+        <Size>106261</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.license.win10sdk</Name>
+        <Title>MICROSOFT SOFTWARE LICENSE SDK FOR WINDOWS 10 </Title>
+        <Description></Description>
+        <Version>1.0.0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-05</InstallDate>
+        <Size>0</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5141</Name>
+        <Title>Qt 5.14.1</Title>
+        <Description>Qt 5.14.1 &lt;br>&lt;br>sha1: eac5e8f5c8b7f3c7de6bce0626c724cbeaa4a8a4</Description>
+        <Version>5.14.1-0-202001241202</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-06</InstallDate>
+        <Size>2354</Size>
+        <Dependencies>qt.qt5.5141.doc,qt.qt5.5141.examples,qt.license.thirdparty,qt.license.lgpl</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5141.doc</Name>
+        <Title>Qt 5.14.1 Documentation</Title>
+        <Description>Qt 5.14.1 documentation</Description>
+        <Version>5.14.1-0-202001241202</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-06</InstallDate>
+        <Size>396777736</Size>
+        <Dependencies>qt.tools</Dependencies>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5141.examples</Name>
+        <Title>Qt 5.14.1 Examples</Title>
+        <Description>Qt 5.14.1 Examples</Description>
+        <Version>5.14.1-0-202001241202</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-06</InstallDate>
+        <Size>149704273</Size>
+        <Dependencies>qt.tools</Dependencies>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5141.win64_mingw73</Name>
+        <Title>MinGW 7.3.0 64-bit</Title>
+        <Description>Qt 5.14.1 Prebuilt Components for MinGW 7.3.0 64-bit</Description>
+        <Version>5.14.1-0-202001240957</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-06</InstallDate>
+        <Size>572403580</Size>
+        <Dependencies>qt.tools.qtcreator,qt.tools.win64_mingw730,qt.qt5.5141.doc,qt.qt5.5141.examples</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools</Name>
+        <Title>Developer and Designer Tools</Title>
+        <Description>IDE, Internationalization, Design and other tools to accelerate development.</Description>
+        <Version>1.0.8-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-05</InstallDate>
+        <Size>0</Size>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.maintenance</Name>
+        <Title>Maintenance Tool</Title>
+        <Description>Maintenance Tool</Description>
+        <Version>3.2.1-2-202002051051</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-05</InstallDate>
+        <Size>21991721</Size>
+        <ForcedInstallation>true</ForcedInstallation>
+        <Virtual>true</Virtual>
+    </Package>
+    <Package>
+        <Name>qt.tools.qtcreator</Name>
+        <Title>Qt Creator 4.11.1</Title>
+        <Description>IDE for Qt application development</Description>
+        <Version>4.11.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-05</InstallDate>
+        <Size>533123012</Size>
+        <Dependencies>qt.tools.vcredist_msvc2017_x86,qt.tools.vcredist,qt.tools.vcredist_msvc2017_x64,qt.tools.vcredist_64</Dependencies>
+        <ForcedInstallation>true</ForcedInstallation>
+    </Package>
+    <Package>
+        <Name>qt.tools.vcredist</Name>
+        <Title>VCRedist for MSVC 32bit</Title>
+        <Description>Needed by all included Qt applications.</Description>
+        <Version>2011-03-03-1</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-05</InstallDate>
+        <Size>8990592</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.vcredist_64</Name>
+        <Title>VCRedist for MSVC 64bit</Title>
+        <Description>Needed by all included Qt applications.</Description>
+        <Version>2019-10-29</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-05</InstallDate>
+        <Size>10274176</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.vcredist_msvc2017_x64</Name>
+        <Title>VCRedist for MSVC 2017 64bit</Title>
+        <Description>Visual C++ Redistributable Packages for Visual Studio 2017 64 bit</Description>
+        <Version>2019-02-13-1</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-05</InstallDate>
+        <Size>15330104</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.vcredist_msvc2017_x86</Name>
+        <Title>VCRedist for MSVC 2017 32bit</Title>
+        <Description>Visual C++ Redistributable Packages for Visual Studio 2017 32 bit</Description>
+        <Version>2019-02-13-1</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-05</InstallDate>
+        <Size>14648504</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.win64_mingw730</Name>
+        <Title>MinGW 7.3.0 64-bit</Title>
+        <Description>MinGW-builds 7.3.0 64-bit toolchain.</Description>
+        <Version>7.3.0-1-201903151311</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-06</InstallDate>
+        <Size>472170606</Size>
+        <Dependencies>qt.tools.qtcreator</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+</Packages>

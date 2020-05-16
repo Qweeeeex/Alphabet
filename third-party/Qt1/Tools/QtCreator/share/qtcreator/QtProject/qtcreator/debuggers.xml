@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QtCreatorDebuggers>
+<!-- Written by sdktool 4.11.1.0, 2020-03-06T00:17:27. -->
+<qtcreator>
+ <data>
+  <variable>DebuggerItem.0</variable>
+  <valuemap type="QVariantMap">
+   <valuelist type="QVariantList" key="Abis">
+    <value type="QString">x86-windows-msys-pe-64bit</value>
+   </valuelist>
+   <value type="bool" key="AutoDetected">true</value>
+   <value type="QString" key="Binary">O:/Qt1/Tools/mingw730_64/bin/gdb.exe</value>
+   <value type="QString" key="DisplayName">GNU gdb 8.1 for MinGW 7.3.0 64-bit</value>
+   <value type="int" key="EngineType">1</value>
+   <value type="QString" key="Id">Debugger.qt.tools.win64_mingw730</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>DebuggerItem.Count</variable>
+  <value type="int">1</value>
+ </data>
+ <data>
+  <variable>Version</variable>
+  <value type="int">1</value>
+ </data>
+</qtcreator>
