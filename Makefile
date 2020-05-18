@@ -9,7 +9,7 @@ all: ./bin/Search
 	$(g) $(CFLAGS) /build/main.o -o Search.exe
 
 ./build/main.o: ./src/main.cpp
-	$(g) $(CFLAGS) -c /src/main.cpp
+	$(g) $(CFLAGS) -c ./src/main.cpp
 
 clean:
 	rm -rf build/*.o
