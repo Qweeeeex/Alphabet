@@ -13,18 +13,19 @@ int main()
     setlocale(LC_ALL, "RUSSIAN");
     char zn1[maxzn][maxword];
     char* zn2 = NULL;
+    char* Alphavit = NULL;
     char sep[] = " , ";
     int k = 0;
     int i;
     char buff[500];
-    gets(buff);
-    zn2 = strtok(buff, sep);
-    strcpy(zn1[k], zn2);
+    gets_s(buff, 500);
+    zn2 = strtok_s(buff, sep, &Alphavit);
+    strcpy_s(zn1[k], maxword, zn2);
     while (zn2 != NULL) {
         ++k;
-        zn2 = strtok(NULL, sep);
+        zn2 = strtok_s(NULL, sep, &Alphavit);
         if (zn2 != NULL)
-            strcpy(zn1[k], zn2);
+            strcpy_s(zn1[k], maxword, zn2);
     }
     printf("\n");
     qsort(zn1, k, maxword, (int (*)(const void*, const void*))strcmp);
