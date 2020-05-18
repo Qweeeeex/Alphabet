@@ -28,7 +28,7 @@ int main()
             strcpy(zn1[k], zn2);
     }
     printf("\n");
-    qsort(zn1, k, maxword, (int(*)(const void*, const void*))strcmp);
+    qsort(zn1, k, maxword, (int (*)(const void*, const void*))strcmp);
     printf("Words in alphabet order: ");
     puts("");
     for (i = 0; i != k; ++i)
