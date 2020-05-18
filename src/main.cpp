@@ -11,7 +11,6 @@ int main()
 {
     using namespace std;
     setlocale(LC_ALL, "RUSSIAN");
-    char line[maxline] = { 0 };
     char zn1[maxzn][maxword];
     char* zn2 = NULL;
     char* Alphavit = NULL;
