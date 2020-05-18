@@ -1,5 +1,5 @@
 g = g++
-CFLAGS = -Wall -Werror -c -std=c++20
+CFLAGS = -Wall -Werror -c -std=c++11
 
 .PHONY: clean run all
 

@@ -19,13 +19,13 @@ int main()
     int i;
     char buff[500];
     gets_s(buff);
-    zn2 = strtok_s(buff, sep, &Alphavit);
-    strcpy_s(zn1[k], maxword, zn2);
+    zn2 = strtok(buff, sep);
+    strcpy(zn1[k], zn2);
     while (zn2 != NULL) {
         ++k;
-        zn2 = strtok_s(NULL, sep, &Alphavit);
+        zn2 = strtok(NULL, sep);
         if (zn2 != NULL)
-            strcpy_s(zn1[k], maxword, zn2);
+            strcpy(zn1[k], zn2);
     }
     printf("\n");
     qsort(zn1, k, maxword, (int (*)(const void*, const void*))strcmp);
