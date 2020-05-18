@@ -1,8 +1,8 @@
 ﻿#include <iostream>
-#include <stdlib.h>
-#include <stdio.h>
-#include <string.h>
+#include <cstdio>
+#include <cstring>
 #include <locale.h>
+#include <stdlib.h>
 
 #define maxline 256
 #define maxzn 256
@@ -18,16 +18,17 @@ int main()
     int k = 0;
     int i;
     char buff[500];
-    gets(buff);
-    zn2 = strtok_r(buff, sep, &Alphavit);
+    gets_s(buff);
+    zn2 = strtok_s(buff, sep, &Alphavit);
     strcpy_s(zn1[k], maxword, zn2);
     while (zn2 != NULL) {
         ++k;
-        zn2 = strtok_r(NULL, sep, &Alphavit);
-        if (zn2 != NULL) strcpy_s(zn1[k], maxword, zn2);
+        zn2 = strtok_s(NULL, sep, &Alphavit);
+        if (zn2 != NULL)
+            strcpy_s(zn1[k], maxword, zn2);
     }
     printf("\n");
-    qsort(zn1, k, maxword, (int(*)(const void*, const void*))strcmp);
+    qsort(zn1, k, maxword, (int (*)(const void*, const void*))strcmp);
     printf("Words in alphabet order: ");
     puts("");
     for (i = 0; i != k; ++i)
