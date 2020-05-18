@@ -6,7 +6,7 @@ CFLAGS = -Wall -Werror -std=c++17
 all: ./bin/Search
 
 ./bin/Search: ./build/main.o
-	$(g) $(CFLAGS) -o ./build/main.o
+	$(g) $(CFLAGS) -o ./build/main.o /bin/Search
 
 ./build/main.o: ./src/main.cpp
 	$(g) $(CFLAGS) -c ./src/main.cpp
