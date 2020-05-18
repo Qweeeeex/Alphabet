@@ -13,12 +13,11 @@ int main()
     setlocale(LC_ALL, "RUSSIAN");
     char zn1[maxzn][maxword];
     char* zn2 = NULL;
-    char* Alphavit = NULL;
     char sep[] = " , ";
     int k = 0;
     int i;
     char buff[500];
-    gets_s(buff);
+    gets(buff);
     zn2 = strtok(buff, sep);
     strcpy(zn1[k], zn2);
     while (zn2 != NULL) {
