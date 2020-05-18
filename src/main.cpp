@@ -18,17 +18,17 @@ int main()
     int k = 0;
     int i;
     char buff[500];
-    gets_s(buff, 500);
-    zn2 = strtok_s(buff, sep, &Alphavit);
-    strcpy_s(zn1[k], maxword, zn2);
+    fgets(buff, 500, stdin);
+    zn2 = strtok_r(buff, sep, &Alphavit);
+    strcpy(zn1[k], zn2);
     while (zn2 != NULL) {
         ++k;
-        zn2 = strtok_s(NULL, sep, &Alphavit);
+        zn2 = strtok_r(NULL, sep, &Alphavit);
         if (zn2 != NULL)
-            strcpy_s(zn1[k], maxword, zn2);
+            strcpy(zn1[k], zn2);
     }
     printf("\n");
-    qsort(zn1, k, maxword, (int (*)(const void*, const void*))strcmp);
+    qsort(zn1, k, maxword, (int(*)(const void*, const void*))strcmp);
     printf("Words in alphabet order: ");
     puts("");
     for (i = 0; i != k; ++i)
