@@ -1,12 +1,5 @@
-﻿#include <iostream>
-#include <cstdio>
-#include <cstring>
-#include <locale.h>
-#include <stdlib.h>
+﻿#include "check.h"
 
-#define maxline 256
-#define maxzn 256
-#define maxword 48
 int main()
 {
     using namespace std;
@@ -29,6 +22,9 @@ int main()
     }
     printf("\n");
     qsort(zn1, k, maxword, (int (*)(const void*, const void*))strcmp);
+    for (i = 0; i != k - 1; i++) {
+		check(zn1[i], zn1[i + 1]);
+	}
     printf("Words in alphabet order: ");
     puts("");
     for (i = 0; i != k; ++i)
