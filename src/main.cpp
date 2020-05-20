@@ -23,7 +23,7 @@ int main()
     printf("\n");
     qsort(zn1, k, maxword, (int (*)(const void*, const void*))strcmp);
     for (i = 0; i != k - 1; i++) {
-	    check(zn1[i], zn1[i + 1]);
+	check(zn1[i], zn1[i + 1]);
     }
     printf("Words in alphabet order: ");
     puts("");
