@@ -1,4 +1,4 @@
 /build/*.o
 /build/test/*.o
-*.exe
+/bin/*.exe
 *.d
