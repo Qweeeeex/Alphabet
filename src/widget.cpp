@@ -23,7 +23,7 @@ void Widget::on_Knopka_clicked()
     char zn1[maxzn][maxword];
     char* zn2 = NULL;
     char* Alphavit = NULL;
-    char* sep = " , ";
+    char* sep = " ";
     int k = 0;
     int i;
     char *line;
@@ -44,8 +44,8 @@ void Widget::on_Knopka_clicked()
     printf("Фамилии в алфавитном порядке: ");
     puts("");
     for (i = 0; i != k; ++i) {
-        QString mama(zn1[i]);
-        ui->textBrowser->insertPlainText(mama);
+        QString Sort(zn1[i]);
+        ui->textBrowser->insertPlainText(Sort);
         ui->textBrowser->append("");
     }
 }
