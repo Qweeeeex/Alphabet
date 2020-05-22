@@ -12,6 +12,6 @@ int main()
     int k = 0;
     char buff[500];
     fgets(buff, 500, stdin);
-    Sort(buff, zn1, &k); //Доделать
+    Sort(buff, zn1, &k);
     print(zn1, &k);
 }
