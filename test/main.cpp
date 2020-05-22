@@ -16,7 +16,7 @@ TEST_CASE("TestCheck2", "SortIsOk2") {
 	REQUIRE(test1 == expected);
 }
 
-TEST_CASE("TestCheck3", "SortIsNotOk") {
+TEST_CASE("TestCheck3", "SortIsOk3") {
 	int test1 = check("b", "a");
 	int expected = 1;
 	REQUIRE(test1 == expected);

@@ -29,7 +29,7 @@ test: ./bin/Search-test
 	$(g) $(CFLAGS) -o ./build/test/main.o -c ./test/main.cpp
 
 runtest:
-	./bin/Source-test
+	./bin/Search-test
 
 clean:
 	rm -rf ./build/*.o ./build/test/*.o
