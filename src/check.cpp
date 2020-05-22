@@ -7,6 +7,5 @@ int check(char* one, char* two)
     if (temp < 0 || temp > 0) {
         temp = 1;
     }
-    
     return temp;
 }
