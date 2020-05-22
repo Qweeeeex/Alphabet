@@ -1,6 +1,6 @@
 #include "print.h"
 
-void print(char (&zn1)[maxzn][maxword], int *k)
+void print(char (&zn1)[maxzn][maxword], int* k)
 {
     cout << "Words in alphabet order:" << endl;
     for (int i = 0; i != *k; i++) {

@@ -13,6 +13,6 @@
 
 using namespace std;
 
-int Sort(char*, char (&zn1)[maxzn][maxword], int *k);
+int Sort(char*, char (&zn1)[maxzn][maxword], int* k);
 
 #endif
