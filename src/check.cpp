@@ -2,8 +2,8 @@
 
 int check(char* one, char* two)
 {
-    const char *str(one);
-    const char *str2(two);
+    const char* str(one);
+    const char* str2(two);
     int temp = 0;
     temp = strcmp(one, two);
     if (temp < 0) {

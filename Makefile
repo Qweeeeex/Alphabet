@@ -28,5 +28,8 @@ test: ./bin/Search-test
 ./build/test/main.o: ./test/main.cpp
 	$(g) $(CFLAGS) -o ./build/test/main.o -c ./test/main.cpp
 
+runtest:
+	./bin/Source-test
+
 clean:
-	rm -rf ./build/*.o
+	rm -rf ./build/*.o ./build/test/*.o
