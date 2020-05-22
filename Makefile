@@ -5,8 +5,8 @@ all: ./bin/Search
 
 test: ./bin/Search-test
 
-./bin/Search: ./build/main.o ./build/print.o: ./build/Sort.o: ./build/check.o
-	$(g) $(CFLAGS) -o ./bin/Search ./build/main.o ./build/print.o: ./build/Sort.o: ./build/check.o
+./bin/Search: ./build/main.o ./build/print.o ./build/Sort.o ./build/check.o
+	$(g) $(CFLAGS) -o ./bin/Search ./build/main.o ./build/print.o ./build/Sort.o ./build/check.o
 
 ./build/main.o: ./src/main.cpp
 	$(g) $(CFLAGS) -o ./build/main.o -c ./src/main.cpp
