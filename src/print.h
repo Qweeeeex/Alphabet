@@ -12,6 +12,6 @@
 #define UNTITLED_PRINT_H
 
 using namespace std;
-void print(char (&zn1)[maxzn][maxword], int *k);
+void print(char (&zn1)[maxzn][maxword], int* k);
 
-#endif //UNTITLED_PRINT_H
+#endif

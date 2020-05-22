@@ -1,10 +1,8 @@
-//
-// Created by Qweex on 22.05.2020.
-//
 #include "Sort.h"
 #include "check.h"
 
-int Sort(char* buff, char (&zn1)[maxzn][maxword], int *k) {
+int Sort(char* buff, char (&zn1)[maxzn][maxword], int* k)
+{
     char* zn2 = NULL;
     char* Alphavit = NULL;
     char sep[] = " ";
