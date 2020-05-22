@@ -20,8 +20,6 @@ test: ./bin/Search-test
 ./build/check.o: ./src/check.cpp
 	$(g) $(CFLAGS) -o ./build/check.o -c ./src/check.cpp
 
-
-
 test: ./bin/Search-test
 
 ./bin/Search-test: ./build/test/main.o ./build/check.o
