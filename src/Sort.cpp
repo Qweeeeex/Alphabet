@@ -19,7 +19,6 @@ int Sort(char* buff, char (&zn1)[maxzn][maxword], int* k)
     for (i = 0; i != *k - 1; i++) {
         int x = check(zn1[i], zn1[i + 1]);
         if (x == 1) {
-            cout << "Unexpected trouble";
             return 2;
         }
     }
