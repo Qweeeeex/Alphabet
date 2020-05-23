@@ -12,6 +12,10 @@ int main()
     int k = 0;
     char buff[500];
     fgets(buff, 500, stdin);
-    Sort(buff, zn1, &k);
+    int x = Sort(buff, zn1, &k);
+    if (x == 2) {
+        cout << "Unexpected trouble";
+        return -1;
+    }
     print(zn1, &k);
 }
