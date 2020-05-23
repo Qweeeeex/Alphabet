@@ -1,9 +1,9 @@
 g = g++
 CFLAGS = -Wall -std=c++17
 
-all: ./bin/Search
+.PHONY: all test runtest clean
 
-test: ./bin/Search-test
+all: ./bin/Search
 
 ./bin/Search: ./build/main.o ./build/print.o ./build/Sort.o ./build/check.o
 	$(g) $(CFLAGS) -o ./bin/Search ./build/main.o ./build/print.o ./build/Sort.o ./build/check.o
